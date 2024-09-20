@@ -3,7 +3,7 @@
 ## Quick start 
 
 ``` python
-  def Helloworld()
+  def Helloworld():
     return "Hello World!"
 ```
 ## A Random Number Generator 
