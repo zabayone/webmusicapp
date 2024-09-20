@@ -1,4 +1,4 @@
-# webmusicapp
+# Webmusicapp
 
 ## Quick start 
 
