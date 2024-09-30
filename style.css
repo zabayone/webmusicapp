@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Additional styles to control layout (optional) */
+.side {
+    flex: 30%; /* Adjusts the width for side section */
+    padding: 15px;
+}
+
+.main {
+    flex: 70%; /* Adjusts the width for main section */
+    padding: 15px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 200px;
+}
+
