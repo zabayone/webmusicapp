@@ -1,40 +1,68 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html lang="it">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> IL MONDO DI HELLO KITTY </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista Emergente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <div class="header">
-            <h1> BENVENUTO NEL MONDO DEI GATTINI FATATI</h1>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Benvenuti nel mondo di <span class="artist-name">Giulia Rossi</span></h1>
+        <p>Arte visiva contemporanea</p>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about">Biografia</a>
+        <a href="#gallery">Galleria</a>
+        <a href="#contact">Contatti</a>
+    </div>
+
+    <!-- Biografia Section -->
+    <div id="about" class="section about">
+        <h2>Chi è Giulia Rossi</h2>
+        <p>Giulia Rossi è un'artista emergente con un forte legame con la natura e la contemporaneità. Le sue opere spaziano dalla pittura astratta alle installazioni immersive, con un focus sull'esplorazione del rapporto tra uomo e ambiente.</p>
+        <div class="bio-image">
+            <img src="giulia-rossi.jpg" alt="Giulia Rossi">
         </div>
+    </div>
 
-        <div class="navbar">
-            <a href="#"> My research </a>
-            <a href="#"> Personal projects </a>
-            <a href="mailto:nespolinicola5@gmail.com" class="right"> Contact me </a>
+    <!-- Galleria Section -->
+    <div id="gallery" class="section gallery">
+        <h2>Galleria delle Opere</h2>
+        <div class="row">
+            <div class="column">
+                <img src="opera1.jpg" alt="Opera 1">
+                <p>Titolo: "Sfumature di Blu"</p>
+            </div>
+            <div class="column">
+                <img src="opera2.jpg" alt="Opera 2">
+                <p>Titolo: "Fioritura"</p>
+            </div>
+            <div class="column">
+                <img src="opera3.jpg" alt="Opera 3">
+                <p>Titolo: "Vibrazioni Astratte"</p>
+            </div>
         </div>
+    </div>
 
-        <div class="side">
-            <p> This is the side </p>
-            <div class="fakeimg" style="height: 200px;"></div>
-        </div>
+    <!-- Contatti Section -->
+    <div id="contact" class="section contact">
+        <h2>Contatti</h2>
+        <p>Per collaborazioni, esibizioni e acquisti, puoi contattarmi via email o attraverso i social media:</p>
+        <a href="mailto:giulia.rossi@example.com">giulia.rossi@example.com</a>
+        <p>Seguimi su Instagram: <a href="https://instagram.com/giuliarossi_arte">@giuliarossi_arte</a></p>
+    </div>
 
-        <div class="main">
-            <p>
-                This is the main
-            </p>
-        </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Giulia Rossi - Tutti i diritti riservati</p>
+    </div>
 
-        <div class="side">
-            <p> This is the side </p>
-            <div class="fakeimg" style="height: 200px;"></div>
-        </div>
-
-    </body>
+</body>
 
 </html>
